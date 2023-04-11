@@ -1,10 +1,19 @@
 const { defineConfig } = require("cypress")
 
+const { removeUser } = require('./cypress/support/tasks/database')
+
 module.exports = defineConfig({
   e2e: {
     watchForFileChanges: false,
+    env : { 
+      requestMode : true,
+      snapshotOnly: true
+    },  
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      on('task', {
+        removeUser
+      })
     },
     viewportWidth: 1920,
     viewportHeight: 1080,

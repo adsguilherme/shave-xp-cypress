@@ -1,0 +1,35 @@
+{
+  "sucess": {
+    "name": "Guilherme",
+    "email": "adm.guilhermedesousa@gmail.com",
+    "password": "pwd123",
+    "is_shaver": false
+  },
+
+  "invpass": {
+    "email": "adm.guilhermedesousa@gmail.com",
+    "password": "inv_pwd123"
+  },
+
+  "email404": {
+    "email": "email404@email.com",
+    "password": "pwd123"
+  },
+
+  "shortpass": [
+    "1",
+    "12",
+    "123",
+    "1234",
+    "12345"
+  ],
+
+  "invemail": [
+    "gscode.com.br",
+    "gscode&.com.br",
+    "@.com.br",
+    "112345",
+    "xpto",
+    "xpto123"
+  ]
+}
