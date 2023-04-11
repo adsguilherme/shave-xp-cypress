@@ -2,4 +2,6 @@ node_modules
 cypress/screenshots
 cypress/videos
 database.js
-api
+.env
+db-copy.old
+cypress.config-copy.old
