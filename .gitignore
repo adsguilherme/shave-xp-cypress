@@ -1,7 +1,6 @@
 node_modules
 cypress/screenshots
 cypress/videos
-database.js
 .env
 db-copy.old
 cypress.config-copy.old
